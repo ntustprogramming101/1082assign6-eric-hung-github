@@ -7,6 +7,8 @@ class Item {
 	void display(){}
 	void checkCollision(Player player){}
 
+	Item(){}
+
 	Item(float x, float y){
 		isAlive = true;
 		this.x = x;

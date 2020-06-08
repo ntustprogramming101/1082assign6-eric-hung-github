@@ -13,7 +13,9 @@ class Enemy {
 	}
 
 	void display(){}
-	void update(){}
+	void update(Player player){}
+
+	Enemy(){}
 
 	Enemy(float x, float y){
 		this.x = x;

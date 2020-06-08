@@ -6,7 +6,7 @@ class Soldier extends Enemy{
 		image(soldier, x, y);
 	}
 
-	void update(){
+	void update(Player player){
 		x += speed;
 		if(x >= width) x = -w;
 	}
